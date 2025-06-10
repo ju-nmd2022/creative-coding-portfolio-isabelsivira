@@ -1,27 +1,58 @@
 [
   {
-    "file": "project/firstWeek1",
+    "file": "experiments/firstWeek1.js",
     "name": "Metro de Caracas",
     "description": "This project aims to map out the Metro lines in Caracas using Perlin noise to draw dots that will map out the metro lines. As a reference I used an artwork published in the Gorilla Sun Newsletter."
   },
   {
-    "file": "project/firstWeek2",
+    "file": "experiments/firstWeek2.js",
     "name": "Metro de Caracas",
-    "description": "This is the first variation where I traslated the canvas so it looks like the lines are horizontal."
+    "description": "This is the first variation where I translated the canvas so it looks like the lines are horizontal."
   },
   {
-    "file": "project/firstWeek3",
+    "file": "experiments/firstWeek3.js",
     "name": "Metro de Caracas",
     "description": "This is the second variation of the first week's artwork and I used lines to connect the dots do they look like the metro lines are connected."
   },
+  
   {
-    "file": "project/galaxy",
+    "file": "experiments/galaxy.js",
     "name": "Galaxy",
     "description": "This week's experiment is a galaxy created using Gravitational attraction, insppired by the examples presented in Garrit's lecture about complexity."
   },
   {
-    "file": "project/solarSystem",
-    "name": "Traffic",
+    "file": "experiments/solarSystem.js",
+    "name": "The Sun",
     "description": "This one is the second variation of the galaxy and is supposed to look like a solar system where there are planets and moons for each of the planets."
+  },
+  {
+    "file": "experiments/traffic.js",
+    "name": "Traffic",
+    "description": "This is an additional variation of the galaxy and is supposed to mimmic traffic using a flow field. The triangles represent the vehicles of different sizes and the roads are the flow fields. "
+  },
+  {
+    "file": "experiments/cruzDiezAgents.js",
+    "name": "Cruz-Diez Agents",
+    "description": "  This is an artwork inspired by Cruz-Diez's Physichromie series. This code creates autonomous agents that move around the screen, changing color based on the distance to the mouse. It uses Perlin noise to create a smooth transition between colors."
+  },
+  {
+    "file": "experiments/particleSound.js",
+    "name": "Particle notes",
+    "description": "This experiment was created based on the Particles assignment of the Foundations of Programming course, adding sound to the particles. Click on the screen to play a random note."
+  },
+  {
+    "file": "experiments/gameOfLife.js",
+    "name": "Game of Life",
+    "description": "This code simulates Conway's Game of Life on a 2D grid, where each cell updates its state based on the number of live neighbors using simplified rules. The number of living cells also controls a sine wave oscillator's frequency and amplitude for an audio-visual effect."
+  },
+  {
+    "file": "experiments/rainbowLife.js",
+    "name": "Rainbow Game of Life",
+    "description": "This is a variation of the Game of Life using diffeerent shapes, like stars, triangles and diamonds as the cells and a rainbow color palette."
+  },
+  {
+    "file": "experiments/noiseSound.js",
+    "name": "Perlin noise",
+    "description": "Used Perlin noise for the particles to move smoothly. Some particles play notes when they are close to each other. The notes are a part of the pentatonic scale. The background gently fades, and connections are drawn between close particles, creating a network-like aesthetic. Click to play a note!"
   }
 ]
